@@ -1,0 +1,88 @@
+/*#box{
+	width: 300px;
+	height: 300px;
+	background: url("../img/camera.png");
+
+ Formatando apenas o h1 que está dentro do box
+
+#box h1{
+	background: rgba(255, 255, 255, 0.3);
+}
+*/
+
+#box{
+	width: 300px;
+	height: 300px;
+	background: url("../img/camera.png");
+}
+
+#box{
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(red, yellow);
+}
+
+
+/*****************************************
+Sombras****/
+#box{
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+	padding: 8px;
+	background: #009670;
+	box-shadow: 10px 50px  2px black; -10px -10px 2px red;
+}
+
+#box h1{
+	color:  white;
+	font-size: 60px;
+	/**movimenta a sombra**/
+	/*text-shadow: 20px 20px 1s0px black;*/
+	/*text-shadow: 20px 20px rgba(0,0,0,0.5);*/
+	text-shadow: 4px 4px 10px 10px black, 
+
+/******************************
+Animações****/
+
+	 #box-animacao{
+	 	width: 300px;
+	 	height: 300px;
+	 	background: red;
+	 }
+}
+
+/*Criar a animação*/
+@keyframes animacao-box{
+
+	/*estado inicial da animação*/from {background:  red; border-radius: 0px;}
+	/*estado final da animação*/to {background: yellow; border-radius: 100px;}
+}
+
+#box-animacao{
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	animation-name:  animacao-box; animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;/*quantas  vezes vai repedir*/
+	animation-direction: ;
+}
+
+/*************************
+ Transições*/
+
+#box-transicao:
+  	width: 300px;
+ 	height: 300px;
+ 	background: orange;
+ }
+
+ #box-transicao:  hover{
+ /*estado hover é quando o usuário passa o mouse em cima*/
+ 	width: 300px;
+ 	background: orange;
+ 	transition: background 3s; width: 8s;/*agrupar as 
+ 	transições ou todas de uma vez: all*/;
+ }
