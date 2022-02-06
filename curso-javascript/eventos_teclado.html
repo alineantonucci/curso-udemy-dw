@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Eventos - teclado</title>
+
+		<script type="text/javascript">
+			//principais eventos que podemos capturar a partir do teclado
+			//onkeydown:acionado quando a tecla é pressionada, soltando ou não a tecla
+			//onkeypress:acionado quando a tecla é pressionada, soltando ou não a tecla, exceto: alt, ctrl, shift, etc
+			//onkeyup:acionado quando a tecla é liberada
+			function msgBoasVindas(){
+				alert('Seja bem vindo, você pressionou o botou esquerdo do mouse sobre esse elemento');
+			}
+		</script>
+	</head>
+
+	<body>
+		<input onkeyup="alert('Uma tecla foi pressionada')" type="text" />
+	</body>
+</html>
