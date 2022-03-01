@@ -5,14 +5,14 @@
 
 		<title>Estourando Balões</title>
 
-		<scrip language='Javascipt'>
+		<script language='Javascript'>
 
-			<function iniciajogo(){
-				var nivel_jogo = document.getElementById('nivel_jogo').value;>
+			function iniciaJogo(){
+				var nivel_jogo = document.getElementById('nivel_jogo').value;
 
-				alert(nivel_jogo)
+				window.location.href = 'jogo.html?' + nivel_jogo;
 			}
-		</scrip>
+		</script>
 	</head>
 
 	<body>
@@ -27,7 +27,8 @@
 				</select>
 			</p>
 			<br />
-			<img src="imagens/iniciar.png"onclick="iniciajogo()" />
+			<img src="imagens/iniciar.png" onclick="iniciaJogo()" />
+	
 	</body>
 	
 </html>
