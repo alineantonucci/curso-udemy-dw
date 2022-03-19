@@ -34,6 +34,22 @@
     			<div class="col-md-4"></div>
     			<div class="col-md-4"></div>
   			</div>
+
+		<div class="row">
+			<h1>Detalhes do produto</h1>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4"></div>
+				<?php
+
+					$id_produto = $_GET['id_produto'];
+
+					$detalhes[1] = "Detalhes das cadeiras";
+					$detalhes[2] = "Detalhes do fogão";
+					$detalhes[3] = "Detalhes do roteador";
+					$detalhes[4] = "Detalhes da tv";
+				?>
 		</div>
 	</body>
 </html>
