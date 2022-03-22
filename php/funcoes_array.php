@@ -1,25 +1,30 @@
 <?php
 
-/*strtotime: converte uma string para um time
-2015-02-02
-pega uma data qualquer e converte em um número único, sendo possível fazer cálculos
+/*
+is_array: Verifica se uma variável é um array
+retorna "true" ou "false"
+
+is_array: Verifica se um valor existe em um array
+retorna "true" ou "false"
+
+*array_keys:Retorna todas as chabes de um array
+
+*sort: Ordena um array. Retorna "true" ou "false"
+
+*asorte: Ordena um array, mantendi índice/valor. Retorna "true" ou "false"
+
+*count: Conta elementos de um array. Retorna 2
+
+*array_merge: Funde um ou mais arrays. Retorna: array
+
+*implode: Junta elementos de um array em uma string.
+Pega cada elemento e concatena.
+
+*explode: Divide uma string baseado em um delimitador
+
+
+
 */
-
-$data_inicial = '2018-07-18';
-$data_final = '2021-11-13';
-
-$time_inicial =strtotime($data_inicial);
-$time_final =strtotime($data_final);
-
-$diferenca_times = $time_final - $time_inicial;
-echo $diferenca_times;
-
-
-//diferença em dias de duas datas
-$diaSegundos = 24*60*60;
-echo $diaSegundos<br>;
-$diferenca_dias = $diferenca_times / $diaSegundos;
-echo $diferenca_dias;
 
 
 ?>

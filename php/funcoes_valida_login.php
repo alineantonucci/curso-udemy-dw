@@ -1,6 +1,6 @@
 <?php
 
-function validar_login($login, $senha){
+function valida_login($login, $senha){
 
     //validar direto em um banco de dados
     $login_bd = 'jamilton.damasceno';

@@ -1,4 +1,4 @@
-<form method="post" action="validar_login.php">
+<form method="post" action="valida_login.php">
 	<label>
 		Loging:
 		<input type="text" name="login">
